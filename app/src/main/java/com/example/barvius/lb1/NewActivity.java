@@ -12,12 +12,7 @@ public class NewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new);
     }
-
-
         public void Back(View v) {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
+            onBackPressed();
         }
-
-
 }
